@@ -1,0 +1,68 @@
+{
+    "clients": [
+        {
+          "id": "1",
+          "nom": "Abdou Fall",
+          "tel": "775205028",
+          "adresse":"liberté"
+        },
+        {
+            "id": "1",
+            "nom": "Abdou Fall",
+            "tel": "775205028",
+            "adresse":"liberté"
+          }
+      ],
+      "articles": [
+        {
+          "id": "1",
+          "ref": "HN236",
+          "libelle": "lait",
+          "prix": "2100",
+          "quantite_stock": "50"
+        }
+      ],
+      "commandes": [
+        {
+          "id": "1",
+          "date": "27-02-2023",
+          "numero_commande": "325AB6",
+          "statut": "payé",
+          "montant_paye": "210000",
+          "id_client": "1"
+        },
+        {
+          "id": "2",
+          "date": "15-03-2023",
+          "numero_commande": "654CD8",
+          "statut": "en attente",
+          "montant_paye": "0",
+          "id_client": "2"
+        },
+        {
+          "id": "3",
+          "date": "22-04-2023",
+          "numero_commande": "789EF1",
+          "statut": "payé",
+          "montant_paye": "75000",
+          "id_client": "3"
+        },
+        {
+          "id": "4",
+          "date": "05-05-2023",
+          "numero_commande": "456GH9",
+          "statut": "annulé",
+          "montant_paye": "0",
+          "id_client": "4"
+        },
+        {
+          "id": "5",
+          "date": "10-06-2023",
+          "numero_commande": "123IJ4",
+          "statut": "payé",
+          "montant_paye": "95000",
+          "id_client": "5"
+        }
+      ]
+    
+}
